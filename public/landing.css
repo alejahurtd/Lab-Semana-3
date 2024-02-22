@@ -11,11 +11,246 @@ body {
 
 .nav {
 	background-color: rgb(7, 8, 8);
-	height: 80px;
+	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1rem;
 	box-sizing: border-box;
 	width: 100%;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.menu__icon {
+	width: 40px;
+	height: 30px;
+	margin-left: 20px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 15px;
+}
+
+.logo__icon {
+	width: 130px;
+	height: 50px;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	margin-right: 20px;
+}
+
+.user__icon {
+	width: 33px;
+	height: 30px;
+}
+
+.carrrusel {
+	background-color: rgb(7, 8, 8);
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.carrusel__image {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.carrusel__image--slide {
+	width: 210vh;
+	height: 90vh;
+}
+
+.boxgames {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	gap: 20rem;
+}
+
+.body_cardsgames {
+	margin: 1px;
+	margin-left: 5px;
+}
+
+li {
+	list-style-type: none;
+	max-width: 600px;
+	margin-right: 100px;
+}
+
+.cardsgames_div {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.cardsgames_img {
+	width: 100px;
+	margin: 0;
+	height: auto;
+	display: flex;
+	align-items: center;
+}
+
+.cardsgames_img--size {
+	width: 300px;
+	height: 200px;
+}
+.cardsgames_item {
+	display: flex;
+	gap: 1px;
+	padding: 1rem;
+}
+.info_cards {
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+h3 {
+	text-align: left; /* Alinea el texto a la izquierda */
+	margin-left: 0;
+	font-weight: bold;
+}
+
+.input_viewgames {
+	text-align: center;
+
+	margin-bottom: 30px;
+}
+
+.background_input2 {
+	background-color: rgb(207, 207, 207);
+}
+.styles_botton {
+	background-color: rgb(253, 60, 170);
+	border: 2px solid rgb(253, 60, 170);
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	width: 260px;
+	height: 60px;
+}
+
+.styles_botton:hover {
+	background-color: #ffffff;
+	color: #f91ca4;
+}
+
+.boxnoticies {
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	box-sizing: border-box;
+	width: 100%;
+	margin-top: 40px;
+}
+
+#boxnoticies {
+	background-color: rgb(207, 207, 207);
+}
+
+.h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-block: 3rem;
+}
+
+.title_noticies {
+	text-align: center;
+	margin-left: 0;
+}
+
+.search_content {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.search_item {
+	padding: 10px;
+}
+
+p {
+	color: #e3008c;
+}
+
+.container_news {
+	display: flex;
+}
+
+.columna1 {
+	padding: 20px;
+	background-color: rgb(207, 207, 207);
+	flex: 1;
+}
+.columna2 {
+	padding: 20px;
+	background-color: rgb(207, 207, 207);
+	flex: 1;
+}
+
+.columna1_img {
+	width: 600px;
+	height: 300px;
+}
+
+.date {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(78, 76, 76);
+}
+
+.description {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	margin-bottom: 3rem;
+}
+
+.fila_post {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3rem;
+}
+
+.imagen_container {
+	flex: 0 0 auto;
+	margin-right: 30px;
+}
+
+.post_image {
+	max-width: 300px;
 }
